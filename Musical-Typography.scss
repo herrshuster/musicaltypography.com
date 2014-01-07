@@ -85,6 +85,11 @@ $chord-perfect5: (	h1: $note-fifth-perfect,	h2: $note-fifth-perfect,	h3: $note-f
 
 // The Font Properties Mixin
 //
+// Use: 
+// h1{
+//    @include font-properties-for(h1);
+// }
+//
 // The font-properties-for mixin combines all font styles into a single mixin.
 // It requires the typography mixin to be loaded, as it calls it for each property.
 // By specifying an optional second variable(0-1), you can scale the output. 
